@@ -9,6 +9,11 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-inline: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    backdrop-filter: blur(6px);
+    background: rgb(255 255 255 / 30%);
 }
 .menu-icons{
     width: 120px;
